@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Journal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> How are you feeling today ?</h1>
+        <select id="Mood">
+            <option value="Happy">Happy</option>
+            <option value="Sad">Sad</option>
+            <option value="Excited">Excited</option>
+            <option value="Dullness">Dullness</option>
+            <option value="Illness">Illness</option>
+        </select>
+        <textarea id="notes" placeholder="Additional notes"></textarea>
+        <button onclick="saveMood()">SaveMood</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
